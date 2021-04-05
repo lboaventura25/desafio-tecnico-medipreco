@@ -3,7 +3,7 @@
     <img :src="drink.strDrinkThumb" :alt="drink.strDrink" />
     <figcaption>
       <p>{{ drink.strDrink }}</p>
-      <span>{{ drink.idDrink }}</span>
+      <span>#{{ drink.idDrink }}</span>
     </figcaption>
   </router-link>
 </template>
