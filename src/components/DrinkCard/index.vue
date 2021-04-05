@@ -32,7 +32,6 @@ export default {
 
 .inline {
   width: 100%;
-  min-width: 300px;
   max-width: 1000px;
   display: flex;
   flex-direction: row;
@@ -63,6 +62,12 @@ figcaption span {
   font-size: 1.8rem;
   line-height: 24px;
   color: #252C32;
+}
+
+@media(max-width: 800px) {
+  .inline {
+    min-width: 300px;
+  }
 }
 
 </style>
