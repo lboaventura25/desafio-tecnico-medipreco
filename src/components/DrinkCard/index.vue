@@ -68,6 +68,10 @@ figcaption span {
   .inline {
     min-width: 300px;
   }
+
+  .inline img {
+    width: 55%;
+  }
 }
 
 </style>
