@@ -10,6 +10,7 @@ html, body {
   background-color: #FFFFFF;
   font-size: 62.5%;
   font-family: Inter, sans-serif;
+  min-height: -webkit-fill-available;
 }
 
 main {
