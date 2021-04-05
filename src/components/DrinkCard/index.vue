@@ -32,7 +32,7 @@ export default {
 
 .inline {
   width: 100%;
-  min-width: 500px;
+  min-width: 300px;
   max-width: 1000px;
   display: flex;
   flex-direction: row;
