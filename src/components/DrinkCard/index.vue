@@ -33,6 +33,7 @@ export default {
 .inline {
   width: 100%;
   min-width: 500px;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   border: 1px solid #E5E9EB;
