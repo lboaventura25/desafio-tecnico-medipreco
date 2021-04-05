@@ -72,6 +72,10 @@ figcaption span {
   .inline img {
     width: 55%;
   }
+
+  figcaption p {
+    max-width: 90%;
+  }
 }
 
 </style>
