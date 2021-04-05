@@ -70,7 +70,7 @@ figcaption span {
   }
 
   .inline img {
-    min-height: 200px;
+    max-height: 200px;
     width: 55%;
   }
 
