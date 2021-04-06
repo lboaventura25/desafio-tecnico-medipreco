@@ -28,6 +28,13 @@ export default {
 .drink {
   min-width: 310px;
   border: 1px solid #E5E9EB;
+  transition: 0.2s all; 
+}
+
+.drink:hover {
+  opacity: 0.7;
+  border: 2px solid #000000;
+  transform: translateY(-10px);
 }
 
 .inline {
