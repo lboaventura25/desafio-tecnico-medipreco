@@ -275,4 +275,10 @@ h1 {
   }
 }
 
+@media(max-height: 700px) {
+  .drink-thumb {
+    height: 400px;
+  }
+}
+
 </style>
