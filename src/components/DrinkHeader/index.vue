@@ -15,13 +15,13 @@
         <li>
           <router-link to="/" class="nav-element">
             <span>Home</span>
-            <img src="../../assets/ArrowRight.png" alt="">
+            <img src="../../assets/ArrowRight.png" alt="Arrow Right" />
           </router-link>
         </li>
         <li>
           <router-link to="/" class="nav-element">
             <span>Catálogo</span>
-            <img src="../../assets/ArrowRight.png" alt="">
+            <img src="../../assets/ArrowRight.png" alt="Arrow Right" />
           </router-link>
         </li>
         <li>
@@ -72,7 +72,7 @@ header {
 }
 
 nav {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   margin-top: 66px;
@@ -108,10 +108,10 @@ span:hover {
   border-bottom: 1px solid #6E7C87;
 }
 
-@media(max-width: 800px) {
+/* @media(max-width: 800px) {
   nav {
     width: 70%;
   }
-}
+} */
 
 </style>
