@@ -2,7 +2,9 @@
 
 <p justify='align'>&emsp; Repositório para desenvolvimento da interface disponível no Figma para o desafio técnico da MediPreço durante o processo seletivo.</p>
 
-É possível ver o projeto rodando clicando em [MediPreço](https://lucas-medipreco-desafio-tecnico.netlify.app/).
+<p justify='align'>&emsp; É possível ver o projeto rodando clicando em [MediPreço](https://lucas-medipreco-desafio-tecnico.netlify.app/).</p>
+
+<p justify='align'>&emsp; As páginas são totalmente responsivas e pensadas para atender a todos os tipos de sistema operacional.</p>
 
 ## Como rodar o projeto
 - Clone o repositório
