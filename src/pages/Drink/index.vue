@@ -1,13 +1,17 @@
 <template>
   <div>
-    <h1>{{ $route.params.id }}</h1>
+    <DrinkHeader />
   </div>
 </template>
 
 <script>
+import DrinkHeader from '@/components/DrinkHeader/index';
 
 export default {
-  name: 'Drink'
+  name: 'Drink',
+  components: {
+    DrinkHeader
+  },
 }
 
 </script>
