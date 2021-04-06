@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/drink" class="drink" v-bind:class="{'inline': !grid}">
+  <router-link :to="{ name: 'drink', params: { id: drink.idDrink } }" class="drink" v-bind:class="{'inline': !grid}">
     <img :src="drink.strDrinkThumb" :alt="drink.strDrink" />
     <figcaption>
       <p>{{ drink.strDrink }}</p>
