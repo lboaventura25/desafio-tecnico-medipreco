@@ -14,10 +14,10 @@
           </section>
           <section class="measures">
             <p 
-              v-for="(measure, index) in strMeasures" 
+              v-for="(size, index) in sizes" 
               :key="index"
             >
-              {{ measure }}
+              {{ size }}
             </p>
           </section>
           <router-link to="/">
@@ -56,7 +56,7 @@ export default {
     return {
       drink: {},
       ingredients: [],
-      strMeasures: ['XS', 'S', 'M', 'L'],
+      sizes: ['XS', 'S', 'M', 'L'],
     }
   },
   mounted() {

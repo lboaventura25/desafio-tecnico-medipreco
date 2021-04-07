@@ -101,6 +101,7 @@ span {
   line-height: 16px;
   margin-right: 8px;
   color: #6E7C87;
+  border-bottom: 1px solid white;
   transition: 0.2s all;
 }
 
